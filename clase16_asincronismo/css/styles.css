@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #88a4fd;
+    --secondary: #ae92d3;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+
+
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tarjeta{
+  background-color: white;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 400px;
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(158,233,233,1) 0%, rgba(251,249,243,1) 100%);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+}
+
+.tarjeta img{
+  border-radius: 18%;
+  height: 250px;
+  width: 250px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h2{
+  text-transform: capitalize;
+  text-decoration:underline;
+}
+
+header{
+  background: linear-gradient(0deg, rgba(158,233,233,1) 0%, rgba(251,249,243,1) 100%);
+  width: 140px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-left: 45%;
+}

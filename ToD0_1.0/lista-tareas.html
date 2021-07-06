@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/lista-tareas.css">
+    <title>ToDo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">My ToDo's</a>
+        </nav>
+        <div class="user-info">
+            <p>username</p>
+            <div class="user-image"></div>
+        </div>
+    </header>
+
+    <form class="nueva-tarea">
+        <div class="not-done "></div>
+        <input type="text" placeholder="Nueva tarea">
+        <button>
+            <img src="assets/plus.png" alt="Agregar Tarea">
+        </button>
+    </form>
+    <ul class="tareas-pendientes">
+    </ul>
+    <h2 class="titulo-terminadas">Tareas terminadas</h2>
+    <ul class="tareas-terminadas">
+    </ul>
+    <script src="scripts/todos.js"></script>
+</body>
+
+</html>
